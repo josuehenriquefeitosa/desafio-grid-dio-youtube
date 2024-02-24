@@ -19,10 +19,22 @@ body{
 
 .header{
     background-color: orange;
-    width: 100% ;
+    width: 100%;
+    height: 56px;
     padding: 0 24px 0 24px;
     grid-row: span 1;
     grid-column: span 5;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 56px;
+    align-items: center;
+    justify-items: center;
+}
+.header .left{
+    justify-self: left;
+}
+.header .left > div{
+    gap: 70px;
 }
 
 .sidebar{
