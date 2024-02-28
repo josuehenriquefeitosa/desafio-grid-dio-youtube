@@ -12,7 +12,7 @@
 body{
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* background-color: #FFFFFF; */
     display: grid;
     grid-template-columns: 218px repeat(4,1fr);
@@ -169,6 +169,7 @@ body{
     grid-template-rows: 141px 74px;
     justify-items: center;
     padding: 16px;
+    border-radius: 4px;
     gap: 16px;
     align-content: space-between;
     
