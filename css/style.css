@@ -74,6 +74,7 @@ body{
 .header .center div button{
     border: 1px solid   #CCCCCC;
     border-left: none;
+    background: #F8F8F8;
 }
 
 .header .rigth{
