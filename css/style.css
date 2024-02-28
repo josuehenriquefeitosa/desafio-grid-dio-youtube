@@ -116,7 +116,7 @@ body{
     grid-column: span 1;
 }
 .sidebar nav{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     padding: 24px 0 0 24px;
     height: 100%;
 }
@@ -168,8 +168,10 @@ body{
     display: grid;
     grid-template-rows: 141px 74px;
     justify-items: center;
-    align-items: center;
-    /* align-content: center; */
+    padding: 16px;
+    gap: 16px;
+    align-content: space-between;
+    
 }
 
 .main  .card .cartaz{
@@ -184,12 +186,28 @@ body{
 
 }
 
-.main .card .info-cartaz .logo-dio, .main .card .info-cartaz .logo-dio img{
+.main .card .info-cartaz .logo-dio,
+ .main .card .info-cartaz .logo-dio img{
     width: 42px;
     height: 42px;
 }
 
 .main  .card .info-cartaz .texto{
     display: grid;
-    grid-template-rows: repeat(2,32px);
+    /* grid-template-rows: repeat(2,32px); */
+    font-size: 12px;
+}
+.main  .card .info-cartaz .texto h1{
+    font-size: 12px;
+    font-weight: 600;
+}
+.main .card .info-cartaz .texto span{
+    display: grid;
+    align-items: center;
+    color:#515151 ;
+    font-weight: 400;
+}
+.main .card .info-cartaz .texto span:first-of-type{
+    /* color: red; */
+    align-self: flex-end ;
 }
